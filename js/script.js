@@ -43,18 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         })
 
-            gsap.to(el.querySelector(".flowers__quote"), {
-                y: 0,
-                ease: 'none',
-                scrollTrigger: {
-                    containerAnimation: scrollTween,
-                    trigger: el.querySelector(".flowers__quote"),
-                    start: 'top bottom',
-                    end: '+=20%',
-                    scrub: 0.5,
-                }
-            })
-
 
 
             gsap.to(el.querySelector(".block"), {

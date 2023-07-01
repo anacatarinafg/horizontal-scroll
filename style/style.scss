@@ -105,23 +105,3 @@ section.flowers::before {
   transform: translateY(100%);
   font-family: $secondary-font;
 }
-
-.flowers__quote {
-  color: $primary-color;
-  position: absolute;
-  bottom: 4rem;
-  right: 4rem;
-  font-size: 3rem;
-  width: 30%;
-  text-align: center;
-  font-weight: 700;
-  font-style: italic;
-  transform: translateY(200%);
-  font-family: $secondary-font;
-  z-index: 11;
-}
-.flowers__quote::before,
-.flowers__quote::after {
-  content: "";
-  color: #fff;
-}
